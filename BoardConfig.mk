@@ -28,6 +28,10 @@
 # the true camera library when the vendor tree is available.  Similarly,
 # we set USE_PROPRIETARY_AUDIO_EXTENSIONS to true in the proprietary variant as
 # well.
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := grouper
+
 USE_CAMERA_STUB := true
 USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
