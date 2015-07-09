@@ -40,6 +40,10 @@ include device/asus/grouper/BoardConfigCommon.mk
 
 TARGET_RECOVERY_FSTAB = device/asus/grouper/fstab.grouper
 
+
+# Prebuilt Chromium
+USE_PREBUILT_CHROMIUM := true
+
 #TWRP
 DEVICE_RESOLUTION := 800x1280
 BOARD_HAS_NO_REAL_SDCARD := true
