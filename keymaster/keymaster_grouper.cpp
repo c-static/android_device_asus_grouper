@@ -25,7 +25,7 @@
 #include <cutils/log.h>
 
 #include <hardware/hardware.h>
-#include <hardware/keymaster.h>
+#include <hardware/keymaster0.h>
 
 #include <openssl/bn.h>
 #include <openssl/err.h>
